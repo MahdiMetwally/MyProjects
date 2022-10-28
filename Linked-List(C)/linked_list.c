@@ -1,34 +1,9 @@
-
-/* 
-File name is linked_list.c
- Purpose: file contains functions for manipulating singly linked list
- 
- Revisions
- Doron Nussbaum 2019
-
- 
- 
- 
- 
- Copyright 2019 Doron Nussbaum
- 
- */
-
-/******************************************************************/
 // INCLUDE 
 
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
 #include "linked_list.h"
-
-
-/************************************************************************/
-// DEFINE
-
-
-
-/************************************************************************/
 
 /*
 Purpose: insert a new node into the list as the first element
