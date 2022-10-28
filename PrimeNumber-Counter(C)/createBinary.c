@@ -1,6 +1,4 @@
 /* 
-File is createBinary.c
-
 Purpose:
 a program that creates a binary file for testing the prime number program 
 
@@ -15,12 +13,6 @@ a binary file with the name.
 Assumption:
 1. the program does not check if the number is a positive integer
 2. the program overwrites that file testPrime.bin
-
-
-Notice:
-Code can be used only for the assignment.  Other usages are not allowed
-
-Copyright 2018 Doron Nussbaum
 */ 
 
 /**************************************************************/
