@@ -1,0 +1,19 @@
+all: multiSpawn numPrimeFactors
+
+multiSpawn: multiFactor.o
+	gcc -o multiSpawn multiFactor.o
+
+numPrimeFactors: numPrimeFactors.o
+	gcc -o numPrimeFactors numPrimeFactors.o
+
+numPrimeFactors.o: numPrimeFactors.c
+	gcc -c numPrimeFactors.c
+
+multiFactor.o: multiFactor.c
+	gcc -c multiFactor.c
+
+clean:
+	rm -f *.o
+
+
+

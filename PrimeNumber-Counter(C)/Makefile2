@@ -1,0 +1,9 @@
+multithread: prime_threads.o
+	gcc -o multithread prime_threads.o -lpthread
+
+prime_threads.o: prime_threads.c
+	gcc -c prime_threads.c
+
+clean:
+	rm -f *.o
+
