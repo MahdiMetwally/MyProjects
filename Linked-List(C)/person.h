@@ -1,17 +1,3 @@
-
-/* 
-File name is person.h
- Purpose: file contains the structures of persons  who are part of Carleton University community
- 
- Revisions
- Doron Nussbaum October 2019
-
-  Copyright 2019 Doron Nussbaum
-
- 
- */
-
-
 #ifndef PERSON_2401_HEADER
 #define PERSON_2401_HEADER 1
 
