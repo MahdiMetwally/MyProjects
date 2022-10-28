@@ -1,22 +1,5 @@
 // FILE IS main.c
-/*
-Description:
 
-This is an exmaple of a test program that you should write to test your code.  
-The testing is not complete because it checks only a subset of the required functionality
-and not all aspects of it. 
-
-The file includes a function to populate the struct personInfo with with either student or employee information.  The function is used to create data required for testing linked list insertion function.
-The function name is populatePerson()
-
-This code will not be used by the TAs to test your code.
-
-
-Revisions:
-Doron Nussbaum 2019
-Copyright Doron Nussbaum 2019
-
-*/
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
@@ -27,7 +10,6 @@ Copyright Doron Nussbaum 2019
 #define CONTINUE {printf("hit <cr> to continue \n"); getchar();}
 
 void populatePerson(PersonInfo *person);
-
 
 int main(int argc, char* argv[])
 {
