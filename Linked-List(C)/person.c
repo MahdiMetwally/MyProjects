@@ -1,18 +1,4 @@
 
-/* 
-File name is person.c
- Purpose: file contains functions for manipulating person record
- 
- Revisions
- Doron Nussbaum 2019
-
-  Copyright 2019 Doron Nussbaum
-
- 
- */
-
-
- /************************************************************************/
  // INCLUDE
 
 #include "stdio.h"
